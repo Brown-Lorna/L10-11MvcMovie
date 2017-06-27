@@ -24,7 +24,8 @@ namespace MvcMovie.Models
                          Title = "Emma Smith: My Story",
                          ReleaseDate = DateTime.Parse("2008-4-11"),
                          Genre = "Biography",
-                         Price = 14.99M
+                         Price = 14.99M,
+                         Rating = "PG"
                      },
 
                      new Movie
@@ -32,7 +33,8 @@ namespace MvcMovie.Models
                          Title = "Forever Strong",
                          ReleaseDate = DateTime.Parse("2008-9-26"),
                          Genre = "Drama",
-                         Price = 19.99M
+                         Price = 19.99M,
+                         Rating = "PG-13"
                      },
 
                      new Movie
@@ -40,7 +42,8 @@ namespace MvcMovie.Models
                          Title = "Once I Was a Beehive",
                          ReleaseDate = DateTime.Parse("2015-8-14"),
                          Genre = "Comedy",
-                         Price = 9.99M
+                         Price = 9.99M,
+                         Rating = "PG"
                      },
 
                      new Movie
@@ -48,7 +51,8 @@ namespace MvcMovie.Models
                          Title = "The Errand of Angels",
                          ReleaseDate = DateTime.Parse("2008-8-22"),
                          Genre = "Drama",
-                         Price = 14.99M
+                         Price = 14.99M,
+                         Rating = "PG"
                      }
                 );
                 context.SaveChanges();
